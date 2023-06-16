@@ -14,9 +14,8 @@ const { Meta } = Card;
 const Descriptions = () => {
   return (
     <div className='descriptions' id='descriptions'>
-        <h2>Descriptions</h2>
-        <div className='des'>
-          
+        <motion.h2 initial={{ x: '-50vw' }} animate={{ x: 0 }} transition={{ ease: "easeOut", duration: 0.5 }} >Descriptions</motion.h2>
+        <motion.div initial={{ y: '100vw' }} animate={{ y: 0 }} transition={{ ease: "easeOut", duration: 1, delay: 0.5 }} className='des'>          
           <Row gutter={16}>
             <Col span={8}>
               <Card hoverable style={{ width: 350 }} cover={<img style={{height:'180px'}} alt="example" src={IOT} />}>
@@ -34,7 +33,7 @@ const Descriptions = () => {
               </Card>
             </Col>
           </Row>
-        </div>
+        </motion.div>
           <div className='navbtn'><Button  href='#gallery' type="primary" shape="circle" icon={<ArrowDownOutlined />} size={'large'} /></div>
     </div>
   )
