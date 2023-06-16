@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+}
+.footer .imagenes{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ter{
+    width: 40%;
+    color: rgb(3, 154, 247);
+    text-align: left;
+    margin:auto 0;
+}
+.foo{
+    width: 40%;
+    color: rgb(3, 154, 247);
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ter p{
+   font-size: 1.5em; 
+}

@@ -1,0 +1,47 @@
+.Main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    text-align: center;
+    color: white;
+    height: 30vh;
+    background-color: white;
+}
+.Content{
+    text-align: center;
+    height: 60vh;
+    color: white;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.Content::-webkit-scrollbar{
+    width: 15px;
+}
+.Content::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 154, 247);
+    border: 3px solid;
+    border-radius: 28px;
+}
+.Sid{
+    text-align: center;
+    color: black;
+    background-color: red;
+    overflow: auto;
+}
+.Sid::-webkit-scrollbar{
+    width: 15px;
+}
+.Sid::-webkit-scrollbar-thumb{
+    background-color: rgb(3, 154, 247);
+    border: 3px solid;
+    border-radius: 28px;
+}
+.footer{
+    text-align: center;
+    height: 10vh;
+    color: white;
+    background-color: white;
+}
