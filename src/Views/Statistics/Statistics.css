@@ -22,3 +22,8 @@
     display: flex;
     justify-content: right;
 }
+@media screen and (max-width:800px) {
+    .statistics .navbtn{
+        display: none;
+    }
+}
