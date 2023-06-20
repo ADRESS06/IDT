@@ -26,3 +26,25 @@
 .ter p{
    font-size: 1.5em; 
 }
+@media screen and (max-width: 800px) {
+    .footer{
+        padding: 5px 0 0 15px;
+    }
+    .foo{
+        width: 60%;
+
+    }
+    .foo p{
+        display: none;
+    }
+    .ter{
+        width: 10%;
+    }
+    .ter p{
+        font-size: 0.5em; 
+     }
+     .footer .imagenes img{
+        width: 70%;
+        height: 50%;
+    }
+}

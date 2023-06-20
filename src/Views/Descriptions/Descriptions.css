@@ -1,5 +1,6 @@
 .descriptions{
     height: 100%;
+    width: 100%;
     padding: 2%;
     background-color: white;
 }
@@ -20,4 +21,35 @@
     padding: 1em;
     display: flex;
     justify-content: right;
+}
+.des .car{
+    width: 350px;
+}
+.des .car img{
+    height: 150px;
+}
+@media screen and (max-width: 800px) {
+    .des{
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin-top: 2em;
+    }
+    .des .car{
+        width: 120%;
+    }
+    .des .car img{
+        width: 100%;
+        height: 150px;
+    }
+    .descriptions .navbtn{
+        width: 100%;
+        height: 20%;
+        padding: 1em;
+        display: flex;
+        justify-content: right;
+    }
+    .descriptions .navbtn{
+        display: none;
+    }
 }
